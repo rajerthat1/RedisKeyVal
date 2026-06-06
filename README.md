@@ -10,6 +10,6 @@ distributed transactions
 
 bonus:
 how can i debug and implement error handling?
+networking?
 setup a unit testing framework?
-
-
+possible hazard pointers, manual memory ordering?
