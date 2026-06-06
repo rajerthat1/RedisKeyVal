@@ -9,6 +9,7 @@ add_executable(kv-server
   src/server/connection.cpp
   src/protocol/resp.cpp
   src/storage/in_memory_storage.cpp
+  src/storage/wal_engine.cpp
   src/commands/handler.cpp
 )
 

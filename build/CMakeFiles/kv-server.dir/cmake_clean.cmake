@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kv-server.dir/src/server/server.cpp.o.d"
   "CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o"
   "CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o.d"
+  "CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o"
+  "CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o.d"
   "kv-server"
   "kv-server.pdb"
 )

@@ -273,6 +273,30 @@ src/storage/in_memory_storage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kv-server.dir/build.make CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.s
 .PHONY : src/storage/in_memory_storage.cpp.s
 
+src/storage/wal_engine.o: src/storage/wal_engine.cpp.o
+.PHONY : src/storage/wal_engine.o
+
+# target to build an object file
+src/storage/wal_engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kv-server.dir/build.make CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o
+.PHONY : src/storage/wal_engine.cpp.o
+
+src/storage/wal_engine.i: src/storage/wal_engine.cpp.i
+.PHONY : src/storage/wal_engine.i
+
+# target to preprocess a source file
+src/storage/wal_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kv-server.dir/build.make CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.i
+.PHONY : src/storage/wal_engine.cpp.i
+
+src/storage/wal_engine.s: src/storage/wal_engine.cpp.s
+.PHONY : src/storage/wal_engine.s
+
+# target to generate assembly for a file
+src/storage/wal_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kv-server.dir/build.make CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.s
+.PHONY : src/storage/wal_engine.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,6 +324,9 @@ help:
 	@echo "... src/storage/in_memory_storage.o"
 	@echo "... src/storage/in_memory_storage.i"
 	@echo "... src/storage/in_memory_storage.s"
+	@echo "... src/storage/wal_engine.o"
+	@echo "... src/storage/wal_engine.i"
+	@echo "... src/storage/wal_engine.s"
 .PHONY : help
 
 

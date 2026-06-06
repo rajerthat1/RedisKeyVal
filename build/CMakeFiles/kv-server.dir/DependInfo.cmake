@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/raj/Desktop/key_val/src/server/connection.cpp" "CMakeFiles/kv-server.dir/src/server/connection.cpp.o" "gcc" "CMakeFiles/kv-server.dir/src/server/connection.cpp.o.d"
   "/home/raj/Desktop/key_val/src/server/server.cpp" "CMakeFiles/kv-server.dir/src/server/server.cpp.o" "gcc" "CMakeFiles/kv-server.dir/src/server/server.cpp.o.d"
   "/home/raj/Desktop/key_val/src/storage/in_memory_storage.cpp" "CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o" "gcc" "CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o.d"
+  "/home/raj/Desktop/key_val/src/storage/wal_engine.cpp" "CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o" "gcc" "CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o.d"
   "" "kv-server" "gcc" "CMakeFiles/kv-server.dir/link.d"
   )
 

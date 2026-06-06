@@ -7,6 +7,7 @@ kv-server: \
   CMakeFiles/kv-server.dir/src/server/connection.cpp.o \
   CMakeFiles/kv-server.dir/src/protocol/resp.cpp.o \
   CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o \
+  CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o \
   CMakeFiles/kv-server.dir/src/commands/handler.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libpthread.a \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
@@ -53,6 +54,8 @@ CMakeFiles/kv-server.dir/src/server/connection.cpp.o:
 CMakeFiles/kv-server.dir/src/protocol/resp.cpp.o:
 
 CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o:
+
+CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o:
 
 CMakeFiles/kv-server.dir/src/commands/handler.cpp.o:
 
