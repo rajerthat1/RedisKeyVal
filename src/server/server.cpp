@@ -29,7 +29,7 @@ void Server::run() {
   addr.sin_family = AF_INET;         // IPv4
   addr.sin_port = htons(port_);      // port number
   addr.sin_addr.s_addr = INADDR_ANY; // accept connections on any interface
-                                     //
+
   // bind() will assign the address and port to the socket.
   // convert the port to big endian network byte order for different CPU types
   // INADDR_ANY to listn on all network interfaces

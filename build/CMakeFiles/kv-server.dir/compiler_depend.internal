@@ -1522,4 +1522,5 @@ kv-server
  /home/raj/Desktop/key_val/build/CMakeFiles/kv-server.dir/src/server/connection.cpp.o
  /home/raj/Desktop/key_val/build/CMakeFiles/kv-server.dir/src/server/server.cpp.o
  /home/raj/Desktop/key_val/build/CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o
+ /home/raj/Desktop/key_val/build/CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o
 

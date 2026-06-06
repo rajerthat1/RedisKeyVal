@@ -1513,7 +1513,8 @@ kv-server: /lib64/ld-linux-x86-64.so.2 \
   CMakeFiles/kv-server.dir/src/protocol/resp.cpp.o \
   CMakeFiles/kv-server.dir/src/server/connection.cpp.o \
   CMakeFiles/kv-server.dir/src/server/server.cpp.o \
-  CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o
+  CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o \
+  CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o
 
 
 CMakeFiles/kv-server.dir/src/storage/in_memory_storage.cpp.o:
@@ -1769,6 +1770,8 @@ CMakeFiles/kv-server.dir/src/commands/handler.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /home/raj/Desktop/key_val/src/commands/handler.h:
+
+CMakeFiles/kv-server.dir/src/storage/wal_engine.cpp.o:
 
 /usr/include/c++/15/bits/memory_resource.h:
 
